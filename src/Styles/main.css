@@ -1,0 +1,73 @@
+/* Reset Defaults */
+html {
+  all: unset;
+  background-color: black;
+}
+
+body {
+  all: unset;
+  overflow-x: hidden;
+}
+
+/* Common Styles */
+.centerText {
+  text-align: center;
+}
+
+.centerX {
+  display: flex;
+  justify-content: center;
+}
+
+.centerY {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unstyle {
+  all: unset;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.flexX {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexY {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.spaced {
+  justify-content: space-between;
+}
+
+.noTextSelect {
+  user-select: none;
+}
+
+.pointerHover:hover {
+  cursor: pointer;
+}
