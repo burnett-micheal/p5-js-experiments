@@ -9,6 +9,7 @@ function Landing() {
   const redirectToP5Test3 = () => navigate("/p5test3");
   const redirectToP5Test4 = () => navigate("/p5test4");
   const redirectToP5Test5 = () => navigate("/p5test5");
+  const redirectToP5Test6 = () => navigate("/p5test6");
 
   return (
     <div>
@@ -22,6 +23,7 @@ function Landing() {
         <Box p="1vw"><Button onClick={redirectToP5Test3} variant="contained" style={{fontSize: "1.5vw"}}>P5 Test 3</Button></Box>
         <Box p="1vw"><Button onClick={redirectToP5Test4} variant="contained" style={{fontSize: "1.5vw"}}>P5 Test 4</Button></Box>
         <Box p="1vw"><Button onClick={redirectToP5Test5} variant="contained" style={{fontSize: "1.5vw"}}>P5 Test 5</Button></Box>
+        <Box p="1vw"><Button onClick={redirectToP5Test6} variant="contained" style={{fontSize: "1.5vw"}}>P5 Test 6</Button></Box>
       </Box>
     </div>
   );
